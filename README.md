@@ -1,2 +1,2 @@
 # vertx-starter
-Basic self project on learning Vert.X. 
+Basic self project on learning Vert.x
