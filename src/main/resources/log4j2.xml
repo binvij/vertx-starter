@@ -1,0 +1,17 @@
+
+
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%blue{%d{HH:mm:ss.SSS}} [%t] %highlight{%-5level} %magenta{%c{1.}} - %msg%n"/>
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="net.binvij.vertx_starter" level="DEBUG" />
+		<!-- <Logger name="net.binvij.vertx_starter.eventbus" level="DEBUG" /> -->
+
+		<Root level="error">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>
